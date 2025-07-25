@@ -1,0 +1,34 @@
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+.footer .box-container .box h3{
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color: var(--preto);
+}
+.footer .box-container .box a{
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: var(--cinza);
+}
+.footer .box-container .box a:hover{
+    color: var(--verde);
+    text-decoration: underline;
+}
+.footer .credit{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: var(--border);
+    font-size: 2rem;
+    color: var(--preto);
+    padding: .5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+.footer .credit span{
+    color: var(--verde);
+}
